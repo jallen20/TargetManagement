@@ -1,0 +1,19 @@
+@import 'colors';
+
+.options {
+    width:8vw;
+    background:$color-primary-light;
+    height:auto;
+    text-align:center;
+}
+
+.flyout-options {
+    height: 10vh;
+    
+}
+
+.flyout-option:hover {
+    cursor: pointer;
+    color:white;
+    background: $color-accent;
+}

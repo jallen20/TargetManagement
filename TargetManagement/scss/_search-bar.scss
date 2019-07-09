@@ -1,0 +1,7 @@
+﻿@import 'colors';
+@import 'extensions';
+
+#search {
+    @extend %text-field;
+    margin:5%;
+}

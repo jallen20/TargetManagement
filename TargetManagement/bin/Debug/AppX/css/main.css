@@ -1,0 +1,51 @@
+@import url("https://use.typekit.net/vlu7djv.css");
+p {
+  font-family: gibbs, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#header #title {
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#targets-container {
+  width: 75vw;
+}
+#targets-container .table {
+  border-collapse: collapse;
+  width: auto;
+}
+#nav {
+  width: 15vw;
+  height: 100%;
+  float: left;
+}
+
+#header {
+  height: 5vh;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+}
+#header #title {
+  position: absolute;
+  left: 0;
+}
+#header #user {
+  right: 0;
+  position: absolute;
+}
+#header .header-item {
+  display: inline-block;
+  font-size: 4vh;
+  margin: 1vh;
+}
+
+.header-light {
+  background: #f2f2f2;
+}
+
+/*# sourceMappingURL=main.css.map */

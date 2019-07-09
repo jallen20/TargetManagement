@@ -1,0 +1,36 @@
+﻿@import 'colors';
+@import 'extensions';
+
+#target-form {
+    display:grid;
+    background:$color-secondary-light;
+    width:100%;
+    height:100%;
+    grid-template-columns: 80% 20%;
+    
+    small {
+        display:block;
+        margin-left:5px;
+    }
+}
+
+.inputs {
+    display: block;
+    margin: 2em;
+
+    input[type=text] {
+        @extend %text-field;
+        display:block;
+     }
+}
+
+#text-inputs {
+    grid-column: 2;
+    background:$color-secondary-light;
+    width:20vw;
+}
+
+#target-form-container {
+    grid-column: 2/4;
+    grid-row: 1/4;
+}

@@ -1,0 +1,67 @@
+﻿#targets-container {
+    width: 100%;
+    grid-column: 1/2;
+    text-align: center;
+    text-align: -webkit-center;
+    height: 100%;
+    overflow-y: auto;
+
+    .table {
+        border-collapse: collapse;
+
+        tr {
+            transition: background .1s ease-in-out;
+        }
+
+        tr:not(.table-header) {
+            background: $color-primary-light;
+        }
+
+        tr:not(.table-header):hover {
+            background: $color-selected-light;
+            cursor: pointer;
+        }
+    }
+
+    .table-header {
+        td {
+            background: $color-secondary-light;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            border-top: none;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    margin-left: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    margin-left: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    -webkit-border-radius: 5pt;
+    -ms-border-radius: 5pt;
+    border-radius: 5pt;
+    padding: 5px;
+}
+
+.menu {
+    width:25%;
+    height:auto;
+}
+
+.menu-dot {
+    background: $color-grey;
+    border-radius: 50%;
+    width:5px;
+    height: 5px;
+    border:none;
+    margin:2px;
+}

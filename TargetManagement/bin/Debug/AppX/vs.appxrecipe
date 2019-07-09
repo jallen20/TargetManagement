@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-5SUGF1S</Machine>
+    <WindowsUser>allen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>69df8ce3-e6e8-45c4-b741-eda90d325ef5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=allen</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B189BD9AC88D09C40FC3913CCB5688E3C444997F4365F6479C3F7B63DC601219</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>69df8ce3-e6e8-45c4-b741-eda90d325ef5_1.0.0.0_neutral__4t1fagrdpxhba</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>69df8ce3-e6e8-45c4-b741-eda90d325ef5_4t1fagrdpxhba!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>69df8ce3-e6e8-45c4-b741-eda90d325ef5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=allen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-07-04T20:17:56.079</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\controllers\TargetController.js">
+      <PackagePath>controllers\TargetController.js</PackagePath>
+      <Modified>2019-07-04T20:02:32.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\entry.js">
+      <PackagePath>entry.js</PackagePath>
+      <Modified>2019-07-04T00:13:27.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\Data.js">
+      <PackagePath>Data.js</PackagePath>
+      <Modified>2019-07-04T01:19:59.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\io\TargetListBuilder.js">
+      <PackagePath>io\TargetListBuilder.js</PackagePath>
+      <Modified>2019-07-04T01:48:50.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\models\Priority.js">
+      <PackagePath>models\Priority.js</PackagePath>
+      <Modified>2019-07-04T00:08:45.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\models\Target.js">
+      <PackagePath>models\Target.js</PackagePath>
+      <Modified>2019-07-04T20:00:01.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\models\TargetList.js">
+      <PackagePath>models\TargetList.js</PackagePath>
+      <Modified>2019-07-04T20:16:38.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+      <Modified>2019-01-15T07:03:09.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\bootstrap.min.css">
+      <PackagePath>css\bootstrap.min.css</PackagePath>
+      <Modified>2019-01-15T07:03:09.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\main.css">
+      <PackagePath>css\main.css</PackagePath>
+      <Modified>2019-07-04T05:01:33.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2019-07-04T01:03:39.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\bootstrap.css.map">
+      <PackagePath>css\bootstrap.css.map</PackagePath>
+      <Modified>2019-01-15T07:03:09.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\bootstrap.min.css.map">
+      <PackagePath>css\bootstrap.min.css.map</PackagePath>
+      <Modified>2019-01-15T07:03:09.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\css\main.css.map">
+      <PackagePath>css\main.css.map</PackagePath>
+      <Modified>2019-07-04T05:01:33.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\scss\main.scss">
+      <PackagePath>scss\main.scss</PackagePath>
+      <Modified>2019-07-04T05:01:33.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\scss\_colors.scss">
+      <PackagePath>scss\_colors.scss</PackagePath>
+      <Modified>2019-07-04T01:01:41.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\scss\_fonts.scss">
+      <PackagePath>scss\_fonts.scss</PackagePath>
+      <Modified>2019-07-04T01:03:14.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\scss\_nav.scss">
+      <PackagePath>scss\_nav.scss</PackagePath>
+      <Modified>2019-07-04T04:45:42.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\scss\_target-list-view.scss">
+      <PackagePath>scss\_target-list-view.scss</PackagePath>
+      <Modified>2019-07-04T04:45:15.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\views\index.html">
+      <PackagePath>views\index.html</PackagePath>
+      <Modified>2019-07-04T05:02:01.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-23T23:36:45.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\main.jsx">
+      <PackagePath>main.jsx</PackagePath>
+      <Modified>2019-07-04T19:27:23.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\view_models\TargetListView.jsx">
+      <PackagePath>view_models\TargetListView.jsx</PackagePath>
+      <Modified>2019-07-04T20:02:32.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2019-07-03T19:56:00.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\allen\Desktop\CS\Mine\TargetManagement\TargetManagement\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-07-04T20:17:55.375</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+﻿@import 'colors';
+@import 'fonts';
+@import 'target-list-view';
+@import 'nav';
+
+p {
+   @extend %reg-font;
+}
+
+#header {
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+
+    #title {
+        @extend %semi-bold;
+        position: absolute;
+        left: 0;
+    }
+
+    #user {
+        right: 0;
+        position: absolute;
+    }
+
+    .header-item {
+        display: inline-block;
+        font-size: 4vh;
+        margin: 1vh;
+    }
+}
+
+.header-light {
+    background: $color-secondary-light;
+}
+

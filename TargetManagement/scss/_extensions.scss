@@ -1,0 +1,11 @@
+﻿@import 'colors';
+
+%text-field {
+    outline: none;
+    border: none;
+    border-bottom-color: $color-selected-light;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-left-radius: 2pt;
+    background: $color-secondary-light;
+}
