@@ -6,7 +6,12 @@ class OptionsFlyout extends Component {
         super(props);
     }
 
-    render() {
+    onDelete(id) {
+        let parent = this.props.Parent;
+        parent.state.delete.call(this.props.Parent, id);
+    }
+
+    render(e) {
         let css = {
             position:"absolute",
             left:`${this.props.X}px`,
@@ -14,8 +19,7 @@ class OptionsFlyout extends Component {
         };
         return (
             <div className="options" style={css}>
-                <div className="flyout-option">Edit</div>
-                <div className="flyout-option">Delete</div>
+                <div className="flyout-option" onClick={this.onDelete.bind(this, this.props.TargetID)}>Delete</div>
             </div>
         )
     }

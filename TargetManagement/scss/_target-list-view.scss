@@ -1,10 +1,11 @@
 ﻿#targets-container {
-    width: 100%;
-    grid-column: 1/2;
+    width: 99%;
+    grid-column: 2/3;
     text-align: center;
     text-align: -webkit-center;
     height: 100%;
     overflow-y: auto;
+    transition: all .2s;
 
     .table {
         border-collapse: collapse;
@@ -35,7 +36,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 3%;
     margin-left: 5px;
 }
 

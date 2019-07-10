@@ -7,5 +7,16 @@
     border-bottom-style: solid;
     border-bottom-width: medium;
     border-bottom-left-radius: 2pt;
-    background: $color-secondary-light;
+}
+
+%submit-button {
+    cursor: pointer;
+    height: 5%;
+    width: 40%;
+    margin: 10px auto;
+    transition: all .2s;
+    text-align: center;
+    border: none;
+    color: black;
+    display: block;
 }

@@ -1,0 +1,54 @@
+@import 'colors';
+
+#high-priority-container {
+    position: relative;
+    grid-column: 1;
+    width: 85%;
+    height: 65%;
+    background:$color-secondary-light;
+    overflow-y: auto;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-color: $color-selected-light;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 8pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        padding-top: 10%;
+        font-size: 1.1em;
+        margin-left:3px;
+    }
+
+    h4 {
+        font-size: .6em;
+        margin-left:3px;
+    }
+
+    .high-priority-item {
+        position: relative;
+        background: $color-primary-light;
+        height: 15%;
+        margin: 2vh auto;
+        width: 75%;
+        transition: all .2s;
+    }
+
+    .high-priority-item:hover {
+        transform: scale(1.01);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+}
+
+#priority-container {
+    h2 {
+        margin: 5%;
+    }
+}

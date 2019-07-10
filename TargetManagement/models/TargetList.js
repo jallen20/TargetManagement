@@ -12,26 +12,23 @@ export default function TargetList(list) {
         this.targets.push(target_);
     };
 
-    this.delete = (target_) => {
-        if (!target_) {
-            throw Error(`Cannot delete target: ${target_}`);
+    this.edit = (id_, destTarget) => {
+        for (let i = 0; i < this.targets.length; i++) {
+            if (this.targets[i].id.value === id_) {
+                this.targets[i] = new Target(destTarget.id.value, destTarget.name, destTarget.description, destTarget.priority);
+            }
         }
-        this.targets.splice((() => {
-                for (let i = 0; i < this.targets.length; i++) {
-                    if (this.targets[i].id.id_ === target_.id.id_) {
-                        return i;
-                    }
-                }
-            }).call(),
-            1);
     };
 
-    this.sortByName = () => {
-        this.targets.sort();
-    };
-
-    this.sortByPriority = () =>{
-        this.targets.sort((target1, target2) => target1.priority - target2.priority);
+    this.delete = (id) => {
+        if (!id) {
+            throw Error(`Cannot delete target id: ${id}`);
+        }
+        for (let i = 0; i < this.targets.length; i++) {
+            if (this.targets[i].id.value === id) {
+                this.targets.splice(i, 1);
+            }
+        }
     };
 
     this.search = (name_) => {

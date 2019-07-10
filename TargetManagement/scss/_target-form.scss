@@ -6,8 +6,9 @@
     background:$color-secondary-light;
     width:100%;
     height:100%;
-    grid-template-columns: 80% 20%;
-    
+    grid-template-columns: 20% 60% 20%;
+
+
     small {
         display:block;
         margin-left:5px;
@@ -17,20 +18,49 @@
 .inputs {
     display: block;
     margin: 2em;
+    width:90%;
 
-    input[type=text] {
+    label {
         @extend %text-field;
         display:block;
+        width:45%;
+     }
+
+     .description {
+         padding: 0 auto;
+         white-space: pre-wrap;
+         height: 20em;
+         overflow-y:auto;
+         border-color: $color-selected-light;
+         border-style: solid;
+         border-width: medium;
+         border-radius: 2pt;
+         background: $color-secondary-light;
      }
 }
 
+.add-button, .edit-button {
+    @extend %submit-button;
+    background: $color-primary-light;
+    width: 90% !important;
+    height: 5% !important;
+    margin:1em;
+    transition: all .2s ease-in-out;
+}
+
+.add-button:hover, .edit-button:hover {
+    background: whitesmoke;
+    color: $color-accent;
+}
+
 #text-inputs {
-    grid-column: 2;
-    background:$color-secondary-light;
+    grid-column: 3;
+    background: $color-secondary-light;
     width:20vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #target-form-container {
-    grid-column: 2/4;
-    grid-row: 1/4;
+    grid-column: 1/4;
+    grid-row: 2/4;
 }
