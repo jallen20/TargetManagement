@@ -72,6 +72,12 @@ export default class TargetForm extends Component {
         this.tListView.state.update.call(this.tListView);
     }
 
+    insertSVG() {
+        return {
+            __html: `<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><defs><style>.cls-1{fill:#fff;stroke:#000;stroke-miterlimit:10;}</style></defs><title>Untitled-1</title><line class="cls-1" x1="25" x2="25" y2="50"/><line class="cls-1" y1="25" x2="50" y2="25"/></svg>`
+        };
+    }
+
     render() {
         var self = this;
         let targetProps = ['ID', 'Name', 'Description', 'Priority'];
@@ -123,7 +129,7 @@ export default class TargetForm extends Component {
                 <input type="text" id="search" onChange={e => this.onSearch(e.target.value)} placeholder="search" />
                 {inputs}
                 <button onClick={(e) => { e.preventDefault(); this.onEdit(this.state.selectedTarget) }} className="edit-button">Edit</button>
-                <button onClick={this.onNewTarget.bind(this)} className="add-button">Add</button>
+                <button onClick={this.onNewTarget.bind(this)} className="add-button"><span dangerouslySetInnerHTML={this.insertSVG.call(this)}></span>New Target</button>
             </div>
 
 

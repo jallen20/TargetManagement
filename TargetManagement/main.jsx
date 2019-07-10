@@ -17,7 +17,8 @@ export const App = (function () {
         };
 
         renderTargetForm();
-       window.addEventListener("click", () => {
+       
+        window.addEventListener("click", () => {
            if (window.flyoutOpen) {
                window.flyoutOpen = false;
                let flyout = document.getElementById("flyout-container");

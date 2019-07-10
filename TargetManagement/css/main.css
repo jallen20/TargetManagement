@@ -160,7 +160,7 @@ p {
   background: #f2f2f2;
 }
 
-.add-button, .edit-button {
+.edit-button {
   background: #fff;
   width: 90% !important;
   height: 5% !important;
@@ -168,9 +168,39 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
-.add-button:hover, .edit-button:hover {
+.add-button {
+  width: 20% !important;
+  border-top: solid !important;
+  border-top-style: thin !important;
+  border-top-color: #e6e6e6 !important;
+  height: 5% !important;
+  background: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 !important;
+}
+.add-button span {
+  width: 30%;
+  display: inline-block;
+  height: 30%;
+  margin: 0 1%;
+}
+.add-button span svg {
+  width: 20%;
+}
+
+.edit-button:hover {
   background: whitesmoke;
   color: #44acff;
+  bottom: 0;
+}
+
+.add-button:hover {
+  border: none !important;
+  color: #44acff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.01);
 }
 
 #text-inputs {
@@ -194,7 +224,7 @@ p {
   border-bottom-left-radius: 2pt;
 }
 
-.action-button, .add-button, .edit-button {
+.action-button, .edit-button, .add-button {
   cursor: pointer;
   height: 5%;
   width: 40%;

@@ -39,7 +39,7 @@
      }
 }
 
-.add-button, .edit-button {
+.edit-button {
     @extend %submit-button;
     background: $color-primary-light;
     width: 90% !important;
@@ -48,9 +48,42 @@
     transition: all .2s ease-in-out;
 }
 
-.add-button:hover, .edit-button:hover {
+.add-button {
+    @extend %submit-button;
+    width:20% !important;
+    border-top:solid !important;
+    border-top-style: thin !important;
+    border-top-color:$color-selected-light !important;
+    height: 5% !important;
+    background: $color-secondary-light;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0 !important;
+
+    span {
+        width: 30%;
+        display:inline-block;
+        height:30%;
+        margin:0 1%;
+
+        svg {
+            width: 20%;
+        }
+    }
+}
+
+.edit-button:hover {
     background: whitesmoke;
     color: $color-accent;
+    bottom:0;
+}
+
+.add-button:hover {
+    border:none !important;
+    color: $color-accent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
 }
 
 #text-inputs {
