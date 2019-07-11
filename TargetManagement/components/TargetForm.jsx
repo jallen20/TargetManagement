@@ -20,11 +20,9 @@ export default class TargetForm extends Component {
             add: (e) => {
                 e.preventDefault();
                 let container = document.getElementById("new-target-container");
-                let list = new TargetList(this.state.controller.targets);
-                let _controller = new TargetController(list);
-                _controller.add(container.querySelector('#prop0').value, container.querySelector('#prop2').value, container.querySelector('#prop1').value);
-                this.setState({ controller: _controller });
-                this.highs.state.update.call(this.highs, _controller.targets);
+                this.state.controller.add(container.querySelector('#prop0').value, container.querySelector('#prop2').value, container.querySelector('#prop1').value);
+                this.setState({ controller: this.state.controller });
+                this.highs.state.update.call(this.highs, this.state.controller.targets);
             },
 
             edit: (e, id, target_) => {

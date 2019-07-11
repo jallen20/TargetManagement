@@ -151,7 +151,8 @@ p {
 .inputs .description {
   padding: 0 auto;
   white-space: pre-wrap;
-  height: 20em;
+  height: 30vh;
+  width: 75%;
   overflow-y: auto;
   border-color: #e6e6e6;
   border-style: solid;
@@ -206,8 +207,8 @@ p {
 #text-inputs {
   grid-column: 3;
   background: #f2f2f2;
-  width: 20vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
 }
 
 #target-form-container {
@@ -360,6 +361,9 @@ p {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#priority-container {
+  transition: all 0.2s ease-in;
+}
 #priority-container h2 {
   margin: 5%;
 }

@@ -29,7 +29,8 @@
      .description {
          padding: 0 auto;
          white-space: pre-wrap;
-         height: 20em;
+         height: 30vh;
+         width: 75%;
          overflow-y:auto;
          border-color: $color-selected-light;
          border-style: solid;
@@ -73,11 +74,13 @@
     }
 }
 
+
 .edit-button:hover {
     background: whitesmoke;
     color: $color-accent;
     bottom:0;
 }
+
 
 .add-button:hover {
     border:none !important;
@@ -89,8 +92,8 @@
 #text-inputs {
     grid-column: 3;
     background: $color-secondary-light;
-    width:20vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
 }
 
 #target-form-container {
